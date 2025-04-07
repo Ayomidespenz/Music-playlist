@@ -147,7 +147,7 @@ sortedByTitle.sort(function(a, b) {
   }
   if (a.title > b.title) {
     return 1; // a comes after b
-  }
+  }else
   return 0; // titles are the same
 });
 
